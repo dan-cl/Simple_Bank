@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="app.js"></script>
+    <script src="src/account.js"></script>
+    <script src="src/superSecureDatabase.js"></script>
+    <script src="src/credit.js"></script>
+    <script src="src/debit.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css"></script>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header id="pageHeading">
+      SIMPLE BANK
+    </header>
+    <div>
+      <h1 class="instructions">Welcome to Simple Bank, open an account to get started</h1>
+    </div>
+    <div id="inputs">
+      <div id="openAccount">
+        Name: <input id="firstName" type="textbox"></input>
+        <button id="Create">Open Account</button>
+      </div>
+      <div id="depositContainer">
+        Amount to deposit: <input id="depositAmount" type="number"></input>
+        <button id="deposit">Deposit</button>
+      </div>
+      <div id="accountContainer">
+        Amount to credit: <input id="creditAmount" type="number"></input>
+        <button id="credit">Credit</button>
+        Amount to withdraw: <input id="debitAmount" type="number"></input>
+        <button id="debit">Withdraw</button>
+      </div>
+    </div>
+    <div id="balance">
+    </div>
+  </body>
+</html>

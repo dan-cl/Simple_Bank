@@ -1,0 +1,38 @@
+body {
+  background-color: #1A2343;
+}
+
+.instructions {
+  font-family: Tahoma, Verdana;
+  color: #fff;
+}
+
+#pageHeading {
+  font-family: Tahoma, Verdana;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+#inputs {
+  display: visible;
+  font-family: Tahoma, Verdana;
+  color: #fff;
+  font-size: 20px;
+}
+
+#depositContainer {
+  display: none;
+}
+
+#accountContainer {
+  display: none;
+}
+
+#balance {
+  display: visible;
+  font-family: Tahoma, Verdana;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 100px;
+}
