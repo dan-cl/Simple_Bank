@@ -1,6 +1,6 @@
 # Simple Bank
 
-Simple Bank was created by Dan Clissold. It's a simple application that creates a bank account to track your current balance. It has a limited overdraft to keep your finances in-check. And to make sure your money safe, it includes some basic security.
+Simple Bank was created by Dan Clissold. It's a simple application that creates a bank account to track your current balance. It has a limited overdraft to keep your finances in-check. And to make sure your money is safe, it includes some basic security.
 
 ### How was it built?
 
